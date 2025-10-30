@@ -1,0 +1,12 @@
+[project]
+name = "rheinwerk-generativekimitpython"
+version = "0.1.0"
+description = "Unsere Umgebung für das Online-Seminar von Rheinwerk"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "langchain-groq>=1.0.0",
+    "langchain-openai>=1.0.1",
+    "python-dotenv>=1.2.1",
+]
