@@ -1,6 +1,7 @@
 # Generative KI mit Python
 
 Dies ist das zugehörige Buch zum Online-Kurs.
+
 <table>
   <tr>
     <td align="center">
@@ -11,7 +12,7 @@ Dies ist das zugehörige Buch zum Online-Kurs.
       <span>A comprehensive guide to generative AI concepts and coding in Python.</span>
     </td>
     <td align="center">
-      <a href="https://gollnickdata.de/#/genai_book_de" target="_blank">
+      <a href="https://www.rheinwerk-verlag.de/generative-ki-mit-python/" target="_blank">
         <img src="genai_book_de.jpg" alt="Generative AI Book German" height="350"/><br/>
         <b>Deutsche Ausgabe</b>
       </a><br/>
