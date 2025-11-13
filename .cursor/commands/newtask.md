@@ -1,0 +1,1 @@
+please create a new task based on template @ai_task_template_gemini.md. only create a task file under ai_docs/tasks, but do not start implementing yet. Your task is:
