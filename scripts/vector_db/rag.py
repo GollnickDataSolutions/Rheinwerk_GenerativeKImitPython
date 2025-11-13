@@ -17,7 +17,8 @@ retriever = db.as_retriever(kwargs={"search_type": "similarity", "k": 3})
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
-def rag(user_query):
+def rag(user_query: str) -> str:
+    # 1. Retrieval
     res = retriever.invoke(input=user_query)
 # list[Documents]  -> str
     # 2. Augmentation (str)
@@ -31,6 +32,7 @@ def rag(user_query):
     """),
     ("user", f"User Query: {user_query}, Contextinformation: {context_info}")
     ])
+    
  
     model = ChatGroq(model = "openai/gpt-oss-120b")
     chain = prompt_template | model | StrOutputParser()
